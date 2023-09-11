@@ -10,17 +10,14 @@ body{
     background-color: #F6F7FC;
     background-size: cover;
     background-position: center;
-    background-size: 1280px 720px
 }
 
 .header{
     display: flex;
-    position: fixed;
     top: 0;
     left: 0;
-    width: 1280px;
-    height: 75px;
-    /* padding: 30px 100px; */
+    height: 120px;
+    padding: 30px 100px;
     background-color: #5F799E;
     display: flex;
     justify-content: space-between;
@@ -30,32 +27,31 @@ body{
 
 .logo{
     position: relative;
-    width: 88px;
-    height: 88px;
-    left: 10px;
+    width: 100px;
+    height: 100px;
     align-items: center;
     
 }
 
 .navigation a{
-    font-size: 15px;
+    font-size: 30px;
     color: #F6F7FB;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
     align-items: center;
-    left:100px;
+    left:10em;
     position: relative;
 }
 
 .connection{
-    font-size: 13px;
+    font-size: 20px;
     color: #F6F7FB;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
     align-items: center;
-    left: 150px;
+    left: 29em;
     position: relative;
     
 }
@@ -76,7 +72,7 @@ body{
   .toggle-switch-background {
     position: absolute;
     top: 0;
-    /* left: 0; */
+    left: 0;
     right: 30px;
     width: 100%;
     height: 100%;
